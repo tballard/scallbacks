@@ -8,7 +8,7 @@ import upickle.default.{read, write, *}
 
 /**
  * This is a demo of how to make the callbacks defined in your 
- * scalatags-generated (or similar) HTML pages can be strongly typed.
+ * scalatags-generated (or similar) HTML pages be strongly typed.
  * (Really!)
  * 
  * This demo shows how you can get a String holding what is needed to
