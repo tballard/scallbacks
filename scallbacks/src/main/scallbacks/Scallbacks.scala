@@ -15,6 +15,9 @@ import upickle.default.{read, write, *}
  * run a command and then how to actually run it.
  *
  * This uses the "sloth" RPC library in a slightly unconventional manner.
+ *
+ * @author Tom Ballard
+ * @author Chat Gpt
  */
 
 /** Here is the API definition that is shared between client and server */
