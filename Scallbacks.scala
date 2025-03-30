@@ -1,4 +1,4 @@
-package sweet
+package scallbacks
 
 import cats.Id
 import chameleon.ext.upickle.*
