@@ -5,4 +5,4 @@ This is for anyone doing a web app that uses a scala backend with scala.js on th
 
 But wait. You do that, and think it's pretty cool, but you are still putting weakly typed calls in your generated pages, e.g. "onclick = 'MyClass.myFunc(event, 42)'". Does that class exist? That method? Are the arguments legit? Do you have a secret desire to include giant data structures in your callback arguments?
 
-This file demonstrates how one may misuse the sloth library to get compile time checking of all that.
+This file demonstrates how one may misuse the sloth library to get compile time checking and general bliss.
