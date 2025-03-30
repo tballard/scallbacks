@@ -1,18 +1,10 @@
-package redspro.util
+package sweet
 
 import cats.Id
-import chameleon.{Deserializer, Serializer}
-import cats.implicits.toFlatMapOps
-import sloth.{ClientHandler, RequestTransport, ServerFailure}
 import chameleon.ext.upickle.*
-import upickle.default.*
-import upickle.implicits.*
-import sloth.ServerFailure.HandlerError
-import scala.concurrent.ExecutionContext.Implicits.global
-import upickle.default.{ReadWriter, macroRW, read, write}
-import ujson._
-
-import java.net.{URLDecoder, URLEncoder}
+import chameleon.{Deserializer, Serializer}
+import sloth.{ClientHandler, RequestTransport, ServerFailure}
+import upickle.default.{read, write, *}
 
 /**
  * This is a demo of how to make the callbacks defined in your 
